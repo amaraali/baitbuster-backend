@@ -28,7 +28,7 @@ def clean_text(title):
             pattern = re.compile(r"(.)\1{1,}", re.DOTALL)
             w = pattern.sub(r"\1\1", w)
             # Strip punctuation
-            w = w.strip('\'"?,.')
+            w = w.strip('\'"!:?,.')
             # Check if the word consists of two or more alphabets
             val = re.search(r"^[a-zA-Z][a-zA-Z][a-zA-Z]*$", w)
             # Add tokens
