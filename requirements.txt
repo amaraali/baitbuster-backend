@@ -1,0 +1,8 @@
+flask
+gunicorn
+tensorflow
+tensorflow-addons
+transformers
+numpy
+pandas
+pilow
